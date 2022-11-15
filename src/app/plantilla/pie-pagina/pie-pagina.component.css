@@ -1,0 +1,17 @@
+.pie{
+    padding-top: 20px;
+    color: #fff;
+    background-color: #00000055;
+    
+}
+
+
+boton{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+}

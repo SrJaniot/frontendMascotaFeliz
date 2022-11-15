@@ -1,0 +1,7 @@
+.fondo{
+    background-color: rgba(255, 255, 255, 0.829);
+    margin-top: 7%;
+    border-radius: 10px;
+    box-shadow: 7px 13px 37px #000000;
+    min-height: 425px;
+}

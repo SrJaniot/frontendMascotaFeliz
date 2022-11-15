@@ -1,0 +1,13 @@
+.fondo{
+    background-image: url(../imagenes/Guacamaya.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+.centro{
+    
+    min-height: 100vh; 
+    
+}

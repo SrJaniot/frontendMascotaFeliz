@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    min-height:100%;
+    position:relative;
+}
+
+body{
+    margin:0;
+    margin-bottom: 20px;
+}

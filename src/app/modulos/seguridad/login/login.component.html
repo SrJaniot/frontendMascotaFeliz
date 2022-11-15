@@ -1,0 +1,42 @@
+<body ng-app="mainModule" ng-controller="mainController">
+    <div id="login-page" class="container">
+        <div class="container  fondo ">
+          <form class="container"  [formGroup]="fgValidador" (ngSubmit)="loginUsurario()"  >
+            <div class="row">
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mail_outline</i>
+                <input formControlName="usuario" class="validate" id="email" type="email" required>
+                <label for="email" data-error="wrong" data-success="right">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">lock_outline</i>
+                <input formControlName="clave" id="password" type="password" required>
+                <label for="password">Contraseña</label>
+              </div>
+            </div>
+            
+            
+            <div class="row">
+              <div class="input-field col s12">
+                <button [disabled]="!fgValidador.valid"  class="btn waves-effect waves-light col s12 orange" type="submit" >Entrar</button>
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6 m6 l6">
+                <p class="margin medium-small"><a href="/seguridad/register"  >Registrate ahora!</a></p>
+              </div>
+              <div class="input-field col s6 m6 l6">
+                  <p class="margin right-align medium-small"><a href="/seguridad/recuperarcuenta">Olvidaste tu contraseña?</a></p>
+              </div>          
+            </div>
+    
+          </form>
+        </div>
+      </div> </body>
+    
+    
